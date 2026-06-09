@@ -5,7 +5,7 @@ Resource Manager is a lightweight, high-performance desktop utility written in P
 
 ---
 
-## ✨ Key Features
+## ✨ Key Features-
 
 * **Headless Gaming HUD:** Completely strips away traditional OS title bars, close/minimize buttons, and window frames for a true minimalist aesthetic.
 * **Win32 Input Pass-Through:** Leverages native `User32.dll` extended window styles (`WS_EX_TRANSPARENT`) to ensure mouse clicks pass directly through the HUD, preventing crosshair interruption during competitive gameplay.
