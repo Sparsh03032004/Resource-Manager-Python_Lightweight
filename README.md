@@ -41,18 +41,22 @@ Because the application registers global hooks with the operating system kernel,
 Open your terminal application as an Administrator.
 
 Run the script:
-
+```bash
 Bash
 python ResourceMonitor.py
+```
 Building a Standalone Executable
 To compile the script into a silent, production-grade standalone executable (.exe) without a background terminal console showing:
-
+```bash
 Bash
 pyinstaller --clean --noconsole --onefile ResourceMonitor.py
+```
 Note: Ensure your terminal shell is running with Administrator Privileges during the compilation process.
 
-🎮 Global Controls Reference
-Input Command	Trigger Target	Action Performed
-Alt + T	System-wide Hotkey	Toggles HUD overlay visibility smoothly on/off screen.
-Alt + Y	System-wide Hotkey	Spawns a single-instance overlay settings module to adjust snapping alignment or opacity.
-Right-Click Tray Icon	Notification Area	Opens system tray context menu to cleanly terminate process threads and close the utility.
+## 🎮 Global Controls Reference
+
+| Input Command | Trigger Target | Action Performed |
+| :--- | :--- | :--- |
+| **`Alt + T`** | System-wide Hotkey | Toggles HUD overlay visibility smoothly on/off screen. |
+| **`Alt + Y`** | System-wide Hotkey | Spawns a single-instance overlay settings module to adjust snapping alignment or opacity. |
+| **Right-Click Tray Icon** | Notification Area | Opens system tray context menu to cleanly terminate process threads and close the utility. |
