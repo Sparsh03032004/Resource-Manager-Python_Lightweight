@@ -33,6 +33,8 @@ Resource Manager is a lightweight, high-performance desktop utility written in P
 Ensure you have the required dependencies updated within your environment:
 ```bash
 pip install --upgrade psutil pillow keyboard pystray
+
+
 # Resource Manager 🚀
 > A headless, borderless, click-through hardware telemetry HUD designed to sit seamlessly over fullscreen games and applications.
 
